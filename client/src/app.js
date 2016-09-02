@@ -1,9 +1,9 @@
 var app;
 
 (function () {
-  app: {
-    init: function () {
-        $('body').append('<div>Nigga WHAT?!</div>');
+  app = {
+    init: function() {
+        $('body').append('<div>Test Text</div>');
     }
-  }
+  };
 })();
