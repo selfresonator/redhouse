@@ -3,9 +3,9 @@ var app;
 (function () {
   app = {
     init: function() {
-        $('body').append('<div>Test Text</div>');
+        $('body').append('<h1>Test Text</h1>');
         setTimeout(function() {
-          $('body').append('<div>Test Text</div>');
+          $('body').append('<h1>Test Text</h1>');
         }, 3000);
     }
   };
