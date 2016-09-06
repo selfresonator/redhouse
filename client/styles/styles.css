@@ -1,0 +1,16 @@
+body {
+  width: 95%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width:750px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media screen and (min-width:900px) {
+  body {
+    background-color: red;
+  }
+}
